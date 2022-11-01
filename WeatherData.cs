@@ -37,7 +37,7 @@ namespace WpfAppVäderdata
 
 		public override string ToString()
 		{
-			return $"Datum:{Date} Väderlek:{Sky} Vindstyrka:{Wind} Antal grader:{Degrees} Luftfuktighet:{Humidity}";
+			return $"Datum: {Date?.ToString("D")}  Väderlek: {Sky}\nVindstyrka: {Wind} Antal grader: {Degrees} Luftfuktighet: {Humidity}";
 		}
 	}
 }
